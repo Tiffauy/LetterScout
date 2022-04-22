@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameFragment"
+    android:background="#E4E4E4">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:alignmentMode="alignBounds"
+        android:columnCount="6"
+        android:rowCount="4"
+        android:background="@drawable/roundedcorners">
+
+        <TextView
+            android:id="@+id/board_1x1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp"/>
+
+        <TextView
+            android:id="@+id/board_1x2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp"/>
+
+        <TextView
+            android:id="@+id/board_1x3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_1x4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_1x5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_1x6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_2x1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_2x2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_2x3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_2x4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_2x5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_2x6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_3x1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_3x2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_3x3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_3x4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_3x5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_3x6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_4x1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_4x2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_4x3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_4x4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_4x5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_4x6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_5x1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_5x2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_5x3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_5x4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_5x5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_5x6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_6x1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_6x2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_6x3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_6x4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_6x5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_6x6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_7x1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_7x2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_7x3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_7x4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_7x5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_7x6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_8x1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_8x2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_8x3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_8x4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_8x5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/board_8x6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:text="A"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+    </GridLayout>
+
+   <!--<androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/wordsearch_rv"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_margin="40dp"
+            android:background="#fff"
+            android:nestedScrollingEnabled="false" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/navbar_relativeLayout">
+
+        <TextView
+            android:id="@+id/word1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Moose"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/word2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Paranha"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_below="@+id/word1"/>
+
+        <TextView
+            android:id="@+id/word3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Cow"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_below="@+id/word2"/>
+
+        <TextView
+            android:id="@+id/word4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:text="Chicken"
+            android:textAlignment="center"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/word5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Dog"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_below="@+id/word4"/>
+
+        <TextView
+            android:id="@+id/word6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Dog"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_below="@+id/word5"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/navbar_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true">
+
+    </RelativeLayout>
+</RelativeLayout>
